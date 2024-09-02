@@ -6,7 +6,7 @@ const connectDb = async () => {
       dbName: "ecommerceStore",
     };
     const connection = await mongoose.connect(
-      "mongodb://localhost:27017/",
+      "mongodb+srv://sanyogsr:sanyog@cluster0.fautp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
       DB_OPTIONS
     );
     console.log(
